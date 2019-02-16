@@ -1,0 +1,6 @@
+echo "# Test-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/makimoto1999/Test-repo.git
+git push -u origin master
